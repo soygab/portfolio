@@ -67,7 +67,7 @@
                         <span>↗</span>
                     </a>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=soygabcontato@gmail.com&su=Contato%20pelo%20portfólio&body=Olá%20Gabriel,%0A%0AEncontrei%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.%0A%0AGostaria%20de%20saber%20mais%20sobre%20seus%20serviços.%0A%0AObrigado!" class="button button-secondary">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=soygabcontato@gmail.com&su=Contato%20pelo%20portfólio&body=Olá%20Gabriel,%0A%0AEncontrei%20seu%20portfólio%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto.%0A%0AGostaria%20de%20saber%20mais%20sobre%20seus%20serviços.%0A%0AObrigado!" rel="noopener noreferrer" class="button button-secondary" target="_blank">
                         Fale comigo
                     </a>
 
@@ -89,249 +89,211 @@
         </section>
 
 
-        <!-- ================= PROJETOS ================= -->
 
-        <section class="projects section" id="projetos">
+<!-- ================= PROJETOS ================= -->
 
-            <div class="section-header">
+<section class="projects section" id="projetos">
 
+    <div class="section-header">
+        <div>
+            <span class="section-number">01</span>
+            <h2>Projetos</h2>
+        </div>
+
+        <p>
+            Uma seleção de projetos, experimentos
+            e soluções digitais que desenvolvi.
+        </p>
+    </div>
+
+    <!-- GRID DE PROJETOS -->
+
+    <div class="project-grid">
+
+        <!-- VALIDADE BEBIDAS -->
+
+        <article class="project-card" data-category="systems">
+
+            <a
+                href="/validade/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card-image"
+            >
+                <img
+                    src="public/image/validades.png"
+                    alt="Sistema Validade Bebidas"
+                    loading="lazy"
+                >
+                <span class="project-view">Visualizar ↗</span>
+            </a>
+
+            <div class="project-card-info">
                 <div>
-
-                    <span class="section-number">
-                        01
-                    </span>
-
-                    <h2>
-                        Projetos
-                    </h2>
-
+                    <span class="project-category">Sistema web</span>
+                    <h3>Validade Bebidas</h3>
                 </div>
 
-                <p>
-                    Alguns projetos que representam
-                    meu trabalho e minha evolução.
-                </p>
-
+                <a
+                    href="https://github.com/soygab/validade-bebidas"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-github"
+                    aria-label="Ver código do Validade Bebidas no GitHub"
+                >
+                    ↗
+                </a>
             </div>
 
-
-            <div class="projects-list">
-
-                <!-- PROJETO 01 -->
-
-                <article class="project">
-
-                    <div class="project-image">
-
-                        <div class="project-placeholder">
-                            <img src="public/image/nexo.png" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-
-                            <span class="project-number">
-                                01
-                            </span>
-
-                            <h3>
-                                Projeto Nexo
-                            </h3>
-
-                            <p>
-                                Projeto desenvolvido durante um hackathon com a proposta de aproximar alunos, professores e a comunidade acadêmica em um único ambiente, facilitando a colaboração, 
-                                o compartilhamento de conhecimento e a conexão entre pessoas e projetos.
-                            </p>
-
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="tags">
-                                <span>Python</span>
-                                <span>Django</span>
-                                <span>JavaScript</span>
-                                <span>SQL</span>
-
-                            </div>
-
-                            <a href="https://github.com/soygab/projeto-nexo" class="project-link">
-                                Ver projeto ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-                <!-- PROJETO 02 -->
-
-                <article class="project">
-
-                    <div class="project-image">
-
-                        <div class="project-placeholder">
-                            <img src="public/image/validades.png" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-
-                            <span class="project-number">
-                                02
-                            </span>
-
-                            <h3>
-                                Validade de Bebidas
-                            </h3>
-
-                            <p>
-                                Sistema desenvolvido para facilitar o controle de estoque 
-                                e o acompanhamento de prazos de validade de bebidas. 
-                                O projeto tem como objetivo tornar o gerenciamento de estoque mais simples, organizado e eficiente, 
-                                ajudando a evitar perdas de produtos por vencimento. 
-                            </p>
-
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="tags">
-
-                                <span>React</span>
-                                <span>Tailwind CSS</span>
-                                <span>JavaScript</span>
-                                <span>Supabase</span>
-
-                            </div>
-
-                            <a href="/validade/" class="project-link">
-                                Ver projeto ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- PROJETO 03 -->
-
-                <article class="project">
-
-                    <div class="project-image">
-
-                        <div class="project-placeholder">
-                            <img src="public/image/barber.png" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-
-                            <span class="project-number">
-                                03
-                            </span>
-
-                            <h3>
-                                Sistema Barbearia
-                            </h3>
-
-                            <p>
-                                Plataforma desenvolvida para modernizar a gestão de barbearias, 
-                                reunindo agendamentos, serviços, clientes e controle administrativo em um único sistema, 
-                                tornando a rotina mais organizada e a experiência do cliente mais prática.
-                            </p>
-
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="tags">
-
-                                <span>Python</span>
-                                <span>Django</span>
-                                <span>JavaScript</span>
-                                <span>SQL</span>
-
-                            </div>
-
-                            <a href="https://github.com/soygab/sistema-renanbarber" class="project-link">
-                                Ver projeto ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
-
-                <!-- PROJETO 04 -->
-
-                <article class="project">
-
-                    <div class="project-image">
-
-                        <div class="project-placeholder">
-                            <img src="public/image/rock.png" alt="">
-                        </div>
-
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-
-                            <span class="project-number">
-                                04
-                            </span>
-
-                            <h3>
-                                Site Institucional
-                            </h3>
-
-                            <p>
-                                Site institucional do Rock & Ribs Volta Redonda, 
-                                com cardápio, boliche, shows, promoções, 
-                                galeria integrada ao Instagram, eventos e reservas.
-                            </p>
-
-                        </div>
-
-                        <div class="project-footer">
-
-                            <div class="tags">
-
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>JavaScript</span>
-
-                            </div>
-
-                            <a href="https://soygab.github.io/rock-ribs/" class="project-link" target="_blank">
-                                Ver projeto ↗
-                            </a>
-
-                        </div>
-
-                    </div>
-
-                </article>
-
+            <p>
+                Sistema desenvolvido para acompanhar validades
+                e evitar perdas de bebidas no restaurante.
+            </p>
+
+            <div class="project-tags">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>Tailwind CSS</span>
+                <span>Supabase</span>
             </div>
 
-        </section>
+        </article>
+
+
+        <!-- ROCK & RIBS -->
+
+        <article class="project-card" data-category="websites">
+
+            <a
+                href="https://soygab.github.io/rock-ribs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-card-image"
+            >
+                <img
+                    src="public/image/rock.png"
+                    alt="Website Rock & Ribs"
+                    loading="lazy"
+                >
+                <span class="project-view">Visualizar ↗</span>
+            </a>
+
+            <div class="project-card-info">
+                <div>
+                    <span class="project-category">Website</span>
+                    <h3>Rock & Ribs</h3>
+                </div>
+
+                <a
+                    href="https://github.com/soygab/rock-ribs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="project-github"
+                    aria-label="Ver código do Rock & Ribs no GitHub"
+                >
+                    ↗
+                </a>
+            </div>
+
+            <p>
+                Website comercial para apresentar a marca,
+                atrações, promoções e informações do restaurante.
+            </p>
+
+            <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+            </div>
+
+        </article>
+
+
+        <!-- SISTEMA BARBEARIA -->
+
+        <article class="project-card" data-category="systems">
+
+            <a
+                href="#"
+                class="project-card-image"
+            >
+                <img
+                    src="public/image/barber.png"
+                    alt="Sistema de gerenciamento de barbearia"
+                    loading="lazy"
+                >
+                <span class="project-view">Em desenvolvimento</span>
+            </a>
+
+            <div class="project-card-info">
+                <div>
+                    <span class="project-category">Sistema web</span>
+                    <h3>Renan Barber</h3>
+                </div>
+            </div>
+
+            <p>
+                Projeto de gerenciamento de clientes,
+                serviços e agendamentos para barbearia.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>Django</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+        </article>
+
+
+        <!-- PROJETO NEXO -->
+
+        <article class="project-card" data-category="experiments">
+
+            <a
+                href="https://github.com/soygab/projeto-nexo"
+                class="project-card-image"
+            >
+                <img
+                    src="public/image/nexo.png"
+                    alt="Projeto Nexo"
+                    loading="lazy"
+                >
+                <span class="project-view">Ver projeto ↗</span>
+            </a>
+
+            <div class="project-card-info">
+                <div>
+                    <span class="project-category">Hackathon</span>
+                    <h3>Projeto Nexo</h3>
+                </div>
+            </div>
+
+            <p>
+                Projeto desenvolvido em equipe durante
+                uma experiência de hackathon.
+            </p>
+
+            <div class="project-tags">
+                <span>Python</span>
+                <span>Django</span>
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+            </div>
+
+        </article>
+
+    </div>
+
+    <p class="projects-count" aria-live="polite">
+        Exibindo todos os projetos
+    </p>
+
+</section>
+
 
 
         <!-- ================= SOBRE ================= -->
@@ -387,7 +349,7 @@
 
                     <p>
                         Atualmente trabalho principalmente com
-                        desenvolvimento web utilizando Python,
+                        desenvolvimento web utilizando React, Python,
                         Django, JavaScript, HTML, CSS e SQL.
                     </p>
 
@@ -583,7 +545,7 @@
                 GitHub
             </a>
 
-            <a href="https://instagram.com/gabzsq" target="_blank">
+            <a href="https://instagram.com/codedbygab" target="_blank">
                 Instagram
             </a>
 
@@ -591,7 +553,7 @@
                 LinkedIn
             </a>
 
-            <a href="https://www.tiktok.com/@koagab" target="_blank">
+            <a href="https://www.tiktok.com/@codedbygab" target="_blank">
                 TikTok
             </a>
 

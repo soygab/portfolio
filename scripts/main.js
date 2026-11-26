@@ -27,7 +27,7 @@ requestAnimationFrame(() => {
 // Entradas suaves conforme os blocos aparecem no viewport.
 const revealGroups = [
     [".section-header", 0],
-    [".project", 0],
+    [".project-card", 100],
     [".about-title", 0],
     [".about-text p", 85],
     [".service", 75],
@@ -92,7 +92,7 @@ window.addEventListener("scroll", () => {
 updateScrollUI();
 
 // Luz ambiente e paralaxe muito leve nas capas dos projetos.
-if (!prefersReducedMotion.matches && window.matchMedia("(pointer: fine)").matches) {
+if (window.matchMedia("(pointer: fine)").matches) {
     const glow = document.createElement("div");
     glow.className = "ambient-glow";
     glow.setAttribute("aria-hidden", "true");
@@ -116,7 +116,7 @@ if (!prefersReducedMotion.matches && window.matchMedia("(pointer: fine)").matche
         });
     }, { passive: true });
 
-    document.querySelectorAll(".project-image").forEach(image => {
+    document.querySelectorAll(".project-image-card").forEach(image => {
         image.addEventListener("pointermove", event => {
             const bounds = image.getBoundingClientRect();
             const x = (event.clientX - bounds.left) / bounds.width - 0.5;
